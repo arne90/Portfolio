@@ -2,127 +2,37 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d2c869b4-4a20-4d93-bb46-ee61f6d1cef5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.editorconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.eslintrc.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitattributes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.github/CODE_OF_CONDUCT.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.github/CONTRIBUTING.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.github/ISSUE_TEMPLATE.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.github/PULL_REQUEST_TEMPLATE.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.github/SUPPORT.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.jscsrc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.travis.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.travis/github_deploy_key.enc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CHANGELOG.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LICENSE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Portfolio.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/.editorconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/.gitattributes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/.htaccess" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/404.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/LICENSE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/browserconfig.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/main.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/normalize.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/doc/TOC.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/doc/css.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/doc/extend.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/doc/faq.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/doc/html.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/doc/js.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/doc/misc.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/doc/usage.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/humans.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/js/main.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/js/plugins.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/js/vendor/jquery-3.4.1.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/js/vendor/modernizr-3.7.1.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/robots.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/site.webmanifest" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/tile-wide.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/tile.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulpfile.babel.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modernizr-config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/.editorconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/.gitattributes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/404.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/browserconfig.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/doc/TOC.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/doc/css.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/doc/extend.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/doc/faq.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/doc/html.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/doc/js.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/doc/misc.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/doc/usage.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/humans.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/main.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/plugins.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/robots.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/site.webmanifest" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tile-wide.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tile.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/file_content.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/file_existence.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileEditorManager">
-    <leaf />
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-7" />
-    <option name="width" value="1155" />
-    <option name="height" value="1047" />
-  </component>
+  <component name="ProjectId" id="1QkiG3EmRcfLuF7mYFa6SuRISTK" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="ProjectPane" />
-    </panes>
-  </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1568317878618" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1568319937536" />
     <property name="editor.config.ad.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
-    <property name="node.js.selected.package.eslint" value="E:\Google Drive\Prosjekter\Software Development\JavaScript\Portfolio\node_modules\eslint" />
+    <property name="node.js.selected.package.eslint" value="$PROJECT_DIR$/node_modules/eslint" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -147,67 +57,27 @@
       <option name="presentableId" value="Default" />
       <updated>1568315910271</updated>
       <workItem from="1568315915439" duration="1752000" />
+      <workItem from="1568317953747" duration="1972000" />
+      <workItem from="1568320238097" duration="424000" />
+      <workItem from="1568320902993" duration="1035000" />
+      <workItem from="1570363739911" duration="420000" />
     </task>
     <servers />
-  </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1752000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <layout>
-      <window_info id="Designer" />
-      <window_info id="Image Layers" />
-      <window_info id="Capture Tool" />
-      <window_info id="UI Designer" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info id="npm" side_tool="true" />
-      <window_info id="Gulp" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-    </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="460">
-            <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LICENSE.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

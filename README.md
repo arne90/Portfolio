@@ -1,4 +1,16 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## File structure
+Components are structured in the following manner:
+
+    └── components
+        └── componentName
+            ├── component-name.css
+            ├── component-name.scss
+            ├── component-name-container.js
+            ├── component-name-redux.js
+            ├── component-name-styles.js
+            ├── component-name-view.js
+            └── index.js
+
 
 ## Available Scripts
 
