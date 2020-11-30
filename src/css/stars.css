@@ -1,0 +1,109 @@
+:root {
+  --animation-time: 2s;
+}
+
+.myStar {
+  position: absolute;
+  border-radius: 50% 50%;
+}
+
+/*.myStar.nextPhase {*/
+/*  position: absolute;*/
+/*  top: 200px;*/
+/*  left: 500px;*/
+/*  width: 60px;*/
+/*  height: 60px;*/
+/*  background: rgba(230,50,80,1);*/
+/*  border-radius: 50% 50%;*/
+/*  transition: 500ms;*/
+/*}*/
+
+/* The animation code */
+@keyframes example {
+  0% {
+    background-color: rgba(255, 255, 242, 1);
+    top: 0;
+    left: 0;
+    transition: 10ms;
+  }
+  25% {
+    background-color: rgba(249, 249, 249, 0.9);
+    width: inherit;
+    left: 10%;
+    transition: 10ms;
+  }
+  50% {
+    background-color: rgba(255, 255, 244, 0.8);
+    top: 10%;
+    left: 10%;
+    transition: 10ms;
+  }
+  100% {
+    background-color: rgba(249, 241, 241, 1);
+    top: 0%;
+    left: 0%;
+    transition: 10ms;
+  }
+}
+
+/* The element to apply the animation to */
+.myStar2 {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  background: rgba(30, 50, 80, 1);
+  border-radius: 50% 50%;
+  animation-name: example;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+.myStar3 {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border-radius: 50% 50%;
+  width: 100%;
+  height: 100%;
+  /*background: red;*/
+  /*position: relative;*/
+  /*animation: myfirst 1ms ease-in-out 2ms infinite alternate;*/
+  animation-duration: 3s;
+  animation-delay: 2s;
+  animation-fill-mode: both;
+}
+
+@keyframes myfirst {
+  0% {
+    background-color: rgba(255, 255, 242, 1);
+    left: 0px;
+    top: 0px;
+  }
+  25% {
+    background-color: rgba(249, 249, 249, 0.9);
+    left: 2px;
+    top: 0px;
+  }
+  50% {
+    background-color: rgba(255, 255, 244, 0.8);
+    left: 2px;
+    top: 2px;
+  }
+  75% {
+    background-color: rgba(255, 255, 244, 0.8);
+    left: 0px;
+    top: 2px;
+  }
+  100% {
+    background-color: rgb(151, 143, 143);
+    left: 0px;
+    top: 0px;
+  }
+}
+
+/*@keyframes example2 {*/
+/*  from {background-color: yellow;}*/
+/*  to {background-color: blue;}*/
+/*}*/

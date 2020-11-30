@@ -1,0 +1,142 @@
+.title-base {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100%;
+  background: #000;
+}
+
+.title-top-line {
+  width: 0;
+  position: relative;
+  border-bottom: 2px solid silver;
+  rotation: revert;
+  animation: line-animation-left-to-right 2s linear reverse;
+  /*position: revert;*/
+}
+@keyframes line-animation-left-to-right {
+  0% {
+    width: 0;
+    left: 0;
+    /*transform: translateX(0);*/
+  }
+  100% {
+    width: 100vw;
+    /*left: 100%;*/
+    /*left: 0%;*/
+    /*transform: translateX(-100%);*/
+  }
+  /*0% {*/
+  /*  width: 0;*/
+  /*  left: 100%;*/
+  /*}*/
+  /*100% {*/
+  /*  width: 100%;*/
+  /*  left: 0;*/
+  /*}*/
+}
+
+.title-line-middle {
+  /*border-bottom: 0.75rem solid #dddddd;*/
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.title-bottom-line {
+  border-bottom: 2px solid silver;
+  animation: line-animation-right-to-left 2s linear forwards;
+  rotation: revert;
+  width: 0;
+}
+@keyframes line-animation-right-to-left {
+  0% {
+    width: 0;
+  }
+  50% {
+    margin-left: 0;
+    width: 100%;
+  }
+  100% {
+    margin-left: 30vw;
+    width: 40vw;
+  }
+}
+
+.title-wrapper {
+  width: 100vw;
+  height: 10vh;
+}
+
+.title-text-wrapper {
+  display: inline-block;
+  width: 40vw;
+  font-size: 5rem;
+}
+
+.title-line {
+  border-bottom: 2px solid silver;
+  width: 0%;
+  margin-left: 100%;
+  animation: animate-line 2s linear forwards;
+}
+@keyframes animate-line {
+  0% {
+    width: 0;
+  }
+  50% {
+    margin-left: 0;
+    width: 100%;
+  }
+  100% {
+    margin-left: 30vw;
+    width: 40vw;
+  }
+}
+
+.title-h1 {
+  /*margin: 0;*/
+  /*padding: 0;*/
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+  /*text-align: center;*/
+  color: #ddd;
+  font-size: 5em;
+  font-family: sans-serif;
+  letter-spacing: 0.2em;
+}
+
+.title-h1 span {
+  opacity: 0;
+  display: inline-block;
+  animation: animate 1s linear forwards;
+}
+
+@keyframes animate {
+  0% {
+    opacity: 0;
+    transform: rotateY(90deg);
+    filter: blur(10px);
+  }
+  100% {
+    opacity: 1;
+    transform: rotateY(0deg);
+    filter: blur(0);
+  }
+}
+
+.h2 {
+  width: 100%;
+  text-align: center;
+  border-bottom: 1px solid #ffffff;
+  line-height: 0.1em;
+  margin: 10px 0 20px;
+}
+.h2 span {
+  background: #fff;
+  padding: 0 10px;
+}

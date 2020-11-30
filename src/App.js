@@ -1,22 +1,16 @@
 import React from 'react';
-import './App.css';
+import './css/App.css';
+import './css/stars.css';
+import './css/bootstrap.min.css';
+import './css/title.css';
+import FrontPageScrollable from './components/frontPage/front-page-scrollable';
+import StarsAnimatedExperi from './components/starsAnimated/starsAnimated';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-          Welcome to Arne's webpage.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      {/*<StarsAnimatedExperi/>*/}
+      <FrontPageScrollable />
     </div>
   );
 }

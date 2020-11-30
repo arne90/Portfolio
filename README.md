@@ -9,7 +9,7 @@ Components are structured in the following manner:
             ├── component-name-redux.js
             ├── component-name-styles.js
             ├── component-name-view.js
-            └── index.js
+            └── project-menu.js
 
 
 ## Available Scripts
